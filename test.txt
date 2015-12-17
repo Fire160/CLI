@@ -1,4 +1,7 @@
-testicles
 git add . / git add filename.file
 git commit -m "Commit message"
 git push
+
+git branch alternate
+git checkout alternate
+git push -u origin alternate
