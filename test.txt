@@ -5,3 +5,4 @@ git push
 git branch alternate
 git checkout alternate
 git push -u origin alternate
+git config --global alias.lol "log --graph --pretty =aneline --abbrev.commit --all"
