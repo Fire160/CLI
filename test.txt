@@ -2,6 +2,10 @@ git add . / git add filename.file
 git commit -m "Commit message"
 git push
 
-git branch alternate
+cd moves through files
+git branch -r (to show all branches)
+
+git branch alternate (New branch)
 git checkout alternate
 git push -u origin alternate
+git config --global alias.lol "log --graph --pretty =aneline --abbrev.commit --all"
